@@ -1,1 +1,1 @@
-# RandomFerret.fun
+# randomferret.fun
