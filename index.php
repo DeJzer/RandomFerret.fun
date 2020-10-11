@@ -19,6 +19,7 @@ if ($files) {
 
 <head>
     <title>RandomFerret - HOME</title>
+    <link rel="icon" href="logo.ico"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -80,7 +81,7 @@ if ($files) {
     
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <a class="navbar-brand text-white" href="#">
-            <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" class="d-inline-block align-top" alt="" width="30" height="30">&nbsp;
+            <img src="logo.svg" class="d-inline-block align-top" alt="" width="30" height="30">&nbsp;
             RandomFerret
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -112,7 +113,7 @@ if ($files) {
     </nav>
 
     <div class="container">
-        <img class="img-border img-responsive img-center" src="http://randomferret.fun/images/<?= $random_ferret_index ?>.jpg">
+        <img class="img-border img-responsive img-center" src="https://randomferret.fun/images/<?= $random_ferret_index ?>.jpg">
     </div>
     <div class="container">
         <div class="text-center">
@@ -120,7 +121,7 @@ if ($files) {
             <br><br>
             <label for="shareButton" class="text-white font-weight-bold">Share this ferret!</label>
             <br>
-            <input style="width: 19%;" type="text" id="shareButton" value="http://randomferret.fun/?i=1" onclick="this.select();">
+            <input style="width: 19%;" type="text" id="shareButton" value="https://randomferret.fun/?i=1" onclick="this.select();">
         </div>
     </div>
     
