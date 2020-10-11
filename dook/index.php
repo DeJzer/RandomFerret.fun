@@ -7,8 +7,8 @@ if ($files) {
     $FERRET_NUM = count($files);
     $random_ferret_index = rand(1, $FERRET_NUM);
 
-    $image_path = 'http://randomferret.fun/images/'.$random_ferret_index.'.jpg';
-    $link = 'http://randomferret.fun/?i='.$random_ferret_index;
+    $image_path = 'https://randomferret.fun/images/'.$random_ferret_index.'.jpg';
+    $link = 'https://randomferret.fun/?i='.$random_ferret_index;
 } else {
     $image_path = null;
     $link = null;
