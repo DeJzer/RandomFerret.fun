@@ -17,8 +17,8 @@ if ($files and isset($_GET['count'])) {
                     $random_number = rand(1, $FERRET_NUM);
                 } while (in_array( $random_number ,$ferretNums ));
                 array_push($ferretNums,$random_number);
-                array_push($image_paths,'http://randomferret.fun/images/'.$random_number.'.jpg');
-                array_push($links,'http://randomferret.fun/?i='.$random_number);
+                array_push($image_paths,'https://randomferret.fun/images/'.$random_number.'.jpg');
+                array_push($links,'https://randomferret.fun/?i='.$random_number);
                 $valid_request = TRUE;
             } 
         } else {
