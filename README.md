@@ -5,7 +5,7 @@
 
 ## API Usage
 
-The API is very simple to use; just make a GET request to http://randomferret.fun/dook/. The server will return a direct link to an image of a ferret (`image`) and a URL that you can use to view that image on the main page (`link`).
+The API is very simple to use; just make a GET request to https://randomferret.fun/dook/. The server will return a direct link to an image of a ferret (`image`) and a URL that you can use to view that image on the main page (`link`).
 
 Example code for Node.js:
 
@@ -14,7 +14,7 @@ Example code for Node.js:
 const fetch = require('node-fetch');
 
 async function getImage() {
-   const res = await fetch('http://randomferret.fun/dook/');
+   const res = await fetch('https://randomferret.fun/dook/');
    const data = await res.json();
    
    console.log(`Direct image link: ${data.image}`);
